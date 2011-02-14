@@ -1,0 +1,18 @@
+## Interface: 40000
+## Title: Simple Trade Links
+## Notes: A simple trade filter and link catcher. If there is an item link, show the line. Otherwise filter it out. Also collects passing lines in an LDB tooltip.
+## Author: Quaiche
+## Version: @project-version@
+## X-Credits: Captain's Log by Cladhaire for the LDB log idea
+
+## OptionalDeps: tekDebug
+
+## X-Category: Chat
+## X-License: Apache 2.0
+
+libs\LibStub.lua
+libs\CallbackHandler-1.0.lua
+libs\LibDataBroker-1.1.lua
+libs\tekKonfigAboutPanel.lua
+
+Addon.lua
